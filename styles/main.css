@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+}
+.register {
+    color: rgb(24, 17, 10);
+}
+.how label{
+    display: block;
+}
