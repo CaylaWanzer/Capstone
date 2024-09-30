@@ -1,13 +1,24 @@
 body {
-    background-color: bisque;
+    background-color: rgb(235, 209, 225);
 }
 .register {
-    color: rgb(24, 17, 10);
+    color: black;
     background-color: white;
+    padding: 3em;
+}
+.products {
+    padding: 3rem;
 }
 .how label{
     display: block;
-
+}
+.login {
+    color: black;
+    background-color: white;
+    padding: 3rem;
+}
+.checkout {
+    padding: 3rem;
 }
 
 h1{
@@ -29,4 +40,19 @@ input[type=radio]{
 .store {
     margin: auto;
     display: block;
+    width: 30%;
+}
+.card {
+    color: rgb(156, 46, 70);
+}
+#cart table{
+    width: 75%;
+    margin: auto;
+    padding: 7rem;
+}
+#cart {
+    padding: 3em;
+}
+.col-12 {
+    text-align: center;
 }

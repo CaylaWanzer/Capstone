@@ -26,13 +26,13 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="registration.html">Register</a>
+                            <a class="nav-link" href="register.html">Register</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ptoducts.html">Products</a>
+                            <a class="nav-link" href="products.html">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="checkout.html">Check-Out</a>
@@ -41,6 +41,102 @@
                 </div>
             </div>
         </nav>
-    </header>   
+    </header>
+    <div class="checkout">
+        <h1>Checkout</h1> 
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Address</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" id="validationCustomUsername" required>
+                <div class="invalid-feedback">
+                  Please provide a address.
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            
+          </form>  
+    </div>
+    
+    <div id="cart">
+        <h1> Order Summary</h1>
+        <table>
+            <tr>
+                <th>Quantity </th>
+                <th>Description </th>
+                <th>price each</th>
+                <th>ext price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hug</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hug</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hug</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-primary" type="submit">Place Order</button>
+      </div>
 </body>
 </html>
