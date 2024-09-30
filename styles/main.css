@@ -3,7 +3,30 @@ body {
 }
 .register {
     color: rgb(24, 17, 10);
+    background-color: white;
 }
 .how label{
+    display: block;
+
+}
+
+h1{
+    color: #080004;
+}
+
+.how label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+input[type=radio]{
+    display: inline-block;
+}
+
+.store {
+    margin: auto;
     display: block;
 }
